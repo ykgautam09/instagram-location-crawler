@@ -1,0 +1,19 @@
+{
+  "name": "instagram-location-crawler",
+  "version": "1.0.0",
+  "description": "Using this API you can setup a server for scrapping location data for every post available on user's profile",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Yateesh Kumar Gautam (https://www.linkedin.com/in/ykgautam09/)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "puppeteer": "^13.0.1"
+  }
+}
